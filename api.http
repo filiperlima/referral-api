@@ -5,3 +5,7 @@ Content-Type: application/json
   "name": "Filipe Rodrigues Lima",
   "email": "filiperlima.frl@gmail.com"
 }
+
+###
+
+GET http://localhost:3333/invites/diego123

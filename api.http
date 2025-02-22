@@ -2,10 +2,26 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Filipe Rodrigues Lima",
-  "email": "filiperlima.frl@gmail.com"
+  "name": "Usuário Indicado 3",
+  "email": "indicado3@sabic.com",
+  "referrer": "dc901c98-e8e2-4149-8484-c57053088b4a"
 }
 
 ###
 
-GET http://localhost:3333/invites/diego123
+GET http://localhost:3333/invites/9d799bee-13c1-4b47-982f-93f7f1b421ae
+
+###
+
+GET http://localhost:3333/subscribers/9d799bee-13c1-4b47-982f-93f7f1b421ae/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/9d799bee-13c1-4b47-982f-93f7f1b421ae/ranking/count
+###
+
+GET http://localhost:3333/subscribers/9d799bee-13c1-4b47-982f-93f7f1b421ae/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
